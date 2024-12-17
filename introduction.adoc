@@ -1,0 +1,19 @@
+Introduction 
+
+Welcome to the world of computer forensics. This textbook is an Open Education Resource (OER) written under Creative Commons (CC). This book is designed to be an introduction to a very in depth and complex topic. In general investigating digital evidence is a labor intensive manual process. The target device and motivation behind the investigation can vary, the underlying principals are similar across all types investigations. 
+
+The target audience for this textbook are students and technical professionals. As a student you may be studying at a high school, college or independently. As a technical professional you may be a beginner or a seasoned veteran looking to master a new skill. The fact you have made it this far indicates you have sufficient interest and motivation. 
+
+Throughout this book I will try to keep the need for technical expertise to a minimum. We will be working on a Windows(R) computer in a sample case. The decision to investigate a full computer running a copyrighted OS was not taken lightly. In order to have the most familiarity with the operating system, Windows(R) was an easy decision. 
+
+Students should have a basic understanding of file structure and navigation of a file system. These are entry level skills. Other aspects of Windows will be discussed, but if you cannot locate files on a hard drive if you are given a path, you will not be successful in understanding this basic investigation. 
+
+We will look at common types of investigations and the data that helps to prove or disprove the allegations. This leads us the basic concept of investigating a computer. Evidence we are tasked to locate are inside of files. They may be easy to access, understand and explain to lay persons, or they may be very difficult to locate and interpret. 
+
+Ultimately you will discover throughout this book that you will be asked to conduct an investigation. You will be given guidance and you will follow a rigid set of guidelines. When you have completed the investigation you will provide any supporting evidence back to the requestor in a language they can understand. You collect and present. You are not the judge or the jury. The items you locate will rarely prove anything directly. Almost all evidence located inside of a computer is circumstantial evidence. It cannot associate an actual person with an action or evidence item. 
+
+Hopefully as you work your way through this book you will build the skills of an investigator and learn the ins and outs of investigations. Unfortunately, none of the activities you will encounter are like what you might have seen in a movie or on television. The process is not glamourous or exciting. This doesn't mean that investigations can't be gratifying and fulfilling. The skills developed in this book are very marketable. The ability to locate, interpret and explain data is a specialty many technical professionals lack. 
+
+The original target for this text was the students in the Information Technology AAS degree program as Spokane Falls Community College in Spokane, Washington. The author felt bad asking his students to pay $200 or more dollars for a textbook used in one course. He was awarded a grant to develop this text. It was not worth the money on an hourly scale, but the reward of being able to control the content of the book and tell his students the book is free was worth every second of his time. 
+
+Please enjoy the content. The author is always willing to discuss content and welcomes feedback to the content on both a technical and editing level. nielsen.brady@gmail.com 
