@@ -2,5 +2,5 @@
 == Brady Nielsen
 
 include::sections\introduction.adoc[]
-include::sections\chapter_01_Compure_Forensics.doc[]
+include::sections\chapter_01_Compure_Forensics.adoc[]
 include::sections\chapter_02_Evidence_Acquisition.adoc[]
