@@ -3,7 +3,9 @@
 
 :toc:
 :toc-placement!:
+
 Table of Contents
+
 toc::[]
 
 include::sections\introduction.adoc[]
