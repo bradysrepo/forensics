@@ -1,6 +1,11 @@
 = Introduction to Digital Forensics
 == Brady Nielsen
 
+:toc:
+:toc-placement!:
+Table of Contents
+toc::[]
+
 include::sections\introduction.adoc[]
 
 include::sections\chapter_01_Computer_Forensics.adoc[]
