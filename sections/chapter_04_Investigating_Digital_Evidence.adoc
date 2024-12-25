@@ -1,0 +1,65 @@
+= Chapter Four - Investigating Digital Evidence 
+Investigating the digital content of a computer is unique. The ones and zeroes previously discussed have a lot of frailty and challenges. Pioneers in this industry have helped us with tools and methodologies that take away most of the true challenges. We as investigators still need to understand what we are looking for and how to find it to be successful. When we simplify the much larger concept of digital forensics, we are talking about files and the tools to locate, open and view the contents of files. 
+
+== Files 
+
+The name 'file system' gives us the insight of the role of a file system. It helps a computer to store and locate files. Operating systems and applications are comprised of files. They both use files to store data to make the user experience more pleasant and useful. We as investigators cannot know every type of file ever created nor should we be expected to know every file included in the Windows(R) operating system. There are several informational items about files that can help us to better understand, locate and view the content of files where possible. 
+
+== Structure 
+
+All files have similar structures. They all have a beginning, content and an end. The content is what we most often seek to obtain. In a text document, the content is text of some type. The text might be a grocery list or a manifesto. The content may be easy to view or may require an application. Some files such as binary files are not intended to have to contents viewed, but instead are intended to be executed and perform some function, such as a calculator application. 
+
+Files are typically identified as one of two types, binaries or data files. Binaries can be executables or dynamically linked libraries. They can be data files can be a vast number of possible types of files. Some common types of data files can include user created storage for an application, an archive of multiple files, or information for an application or operating system to use. 
+
+When an operating system or application creates a new file, it uses the appropriate format for that specific type of file. The start of a file is the file header. The file header is unique to each file type. The first four or five bytes of a file identify the file type. In Windows(R), file types are identified by the extension of a file. The file example.bmp has an extension of bmp, a common digital image format. The first four bytes of a bmp file would be represented in hexadecimal as 42 4D F8 A9. This unique value is associated with bmp files. Operating systems such as Linux or MacOS associate a file by the header, not the extension. It is a common approach to examine the header of files in a forensic investigation. It helps in the data carving process as well as identifies file that might have been altered by an end user in an attempt to hide data from a casual user. Extension mismatch is the practice of changing a file extension in Windows(R) to prevent the correct application from opening a file. 
+
+If we take the same example.bmp and rename it to example.docx, Windows(R) will try to open the file with Microsoft Word(R). The application will not be able to open the file properly and a casual user would think the file corrupted or broken. Most forensic investigation suites will identify the example.docx with the header of 42 4D F8 A9 as a mislabeled bmp file and likely highlight it for an investigator to examine as a suspicious file. 
+
+Headers start a file, the content of the file the computer uses is in the middle and the End of File (EoF)sequences end a file. Most files have a simple EoF character. This character is also used in data carving. The carving process looks for the header and the EoF. The carving utility then takes everything in between and places it all back together as a single file. As discussed earlier, the process is not always reliable. The header and the EoF may be from two separate deleted files. The size of data in between header and EoF could be Terrabytes of data. 
+
+== File Uniqueness 
+
+Identifying or locating files and examining their contents is the key to a successful investigation. The ability to examine a file and determine when it was created, last modified, and to identify that it is a copy of an original file are all valuable pieces of information an investigator should collect during an investigation. Metadata is information about specific data. Metadata is created and stored in many ways in a computer. Information such as file creation date and time is generated and kept by the file system for every file. Information such as the make and model of a camera used to take a digital photograph can be embedded into the save image. This embedded data is also metadata. 
+
+== Hash Values 
+
+We discovered hash values in the Digital Evidence Chapter. Each 'chunk' of data has a unique hash value when a hashing function is applied to that 'chunk' of data. If the 'chunk' is modified in anyway, the hash value of the 'chunk' changes as well. This concept is true with files, folders and drives. 
+Each file has a unique hash value. The most used hashing function is MD5 in the digital forensic industry. We established that we could use a hash value of a drive or file to prove it has not been modified. We can also use that idea to prove an unmodified file is not of interest to us as investigators or that the existence of a file that matches a known value is important. 
+When a software publisher, such as Microsoft, releases an application or operating system, their software can be comprised of hundreds or thousands of individual files that are copied to your computer. The installed software has the exact same files for every installation. They will have the same hash values after every install. We can use a database of known files to hide files that came from the publisher and have not been altered. How that is achieved is different in each software suite, but most advanced forensics tools have identifying known files as an option. The National Institute for Standards and Technology maintains a database of known files from major publishers. This database is known as the National Software Reference Library (NSRL) and is available for free download. The NSRL is updated and published approximately every six months. 
+
+The presence of a known bad or problematic file is also something that can be very beneficial to investigators. The gruesome example is the database maintained for law enforcement that contains hash values of all previously confiscated files containing child pornography. If the investigation suite has this database, the software can identify child pornography by hash value without having to view the contents of the offensive material. The same concept is often used for viruses and malicious software. 
+
+The hash value of a file will be the same for every exact copy, even on different computers. The content of the file is the portion that is processed by the hashing function. Some of the metadata can be changed without altering the contents of the file. We can rename the file, and the hash value of the contents will remain the same. We can copy the file to another computer. This process will give the file a new created date on the target computer. This will not change the hash value either. 
+
+Some files, such as Microsoft Word (R) documents have metadata embedded in the document that is modified by the application anytime the file is opened. Metadata such as total editing time are automatically updated, even if the user doesn't interactively save the document. So, the simple act of opening a file, might change the embedded metadata and the hash value of a file because it is stored inside of the contents of the file. Other applications and files may not have that effect. Text based documents opened in a text editor, like Notepad (R) do not modify the contents of the file until the user saves the changes. 
+
+Metadata 
+As previous mentioned files can have multiple types of metadata. The types and amount of metadata varies by the application that creates or modifies the file. 
+
+Word example 
+
+Camera 
+
+File system data 
+
+Tools 
+
+Forensic suites 
+
+EnCase 
+
+FTK 
+
+Autopsy 
+
+ProDiscover 
+
+Specialty 
+
+Browser software 
+
+Non-forensic tools for forensic purposes 
+
+Workstations 
+
+Hardware, software, 
