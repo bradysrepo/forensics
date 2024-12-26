@@ -17,3 +17,7 @@ include::sections\chapter_02_Evidence_Acquisition.adoc[]
 include::sections\chapter_03_Digital_Evidence.adoc[] 
 
 include::sections\chapter_04_Investigating_Digital_Evidence.adoc[]
+
+include::sections\chapter_05_Anti-Forensics.adoc[]
+
+
