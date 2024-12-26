@@ -1,4 +1,4 @@
-= Chapter Four - Investigating Digital Evidence 
+= Investigating Digital Evidence 
 Investigating the digital content of a computer is unique. The ones and zeroes previously discussed have a lot of frailty and challenges. Pioneers in this industry have helped us with tools and methodologies that take away most of the true challenges. We as investigators still need to understand what we are looking for and how to find it to be successful. When we simplify the much larger concept of digital forensics, we are talking about files and the tools to locate, open and view the contents of files. 
 
 == Files 

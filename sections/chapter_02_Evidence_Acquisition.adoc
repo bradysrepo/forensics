@@ -1,4 +1,4 @@
-= Chapter Two - Evidence Acquisition 
+= Evidence Acquisition 
 Evidence collection is a significant portion of a digital forensic investigation. Like most types of criminal investigations, digital forensics investigations have physical evidence. The unique aspect of computer forensic investigations is the digital evidence. You as an investigator have to address both aspects of an investigation, physical and digital. Each aspect has challenges, pitfalls and best evidence practices. 
 == Investigation Basics 
 We will start with physical evidence aspects first. Acquiring or gaining access the devices that contain digital evidence is similar to other physical evidence. The most significant rule for both physical and digital evidence is “preserve the evidence” or to me “don’t modify the evidence”. Alteration of the evidence might create two potential issues in the investigation. 

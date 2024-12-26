@@ -1,4 +1,4 @@
-= Chapter 7 - Windows Artifacts 
+= Windows Artifacts 
 
 One of the key aspects of investigation is locating the artifacts, or file remnants, that provide inculpatory or exculpatory; More simply put, if you find files that support or disprove the allegation you are successful in your investigation. Your job as an investigator is knowing where the files are in a Windows hard drive that will provide evidence. During your career, you may be asked to investigate many types of activities. Each case may have separate types of evidence files to locate or recover. In general, this is true for a Windows computer and just as true for an Android phone. Locating relevant files is the primary objective of investigating. 
 

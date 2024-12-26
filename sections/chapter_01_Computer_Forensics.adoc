@@ -1,4 +1,4 @@
-= Chapter One - Computer Forensics 
+= Computer Forensics 
 
 Computer forensics is a rapidly growing and changing field. There are many opportunities to apply the techniques we will discuss in this book. One does not need to desire to be a full time digital forensic investigator to benefit from the content of this book and the concepts of computer forensics. The ubiquity of computers in today’s society provides frequent opportunities to investigate the operation and content of devices in our everyday lives. Throughout this book I will use the term computer, but realize that any device that can create, modify, send, receive or store digital signals can probably be considered a computer. Because of the range of devices that one might investigate the term digital forensics is often used interchangeably with the term computer forensics. 
 

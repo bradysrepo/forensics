@@ -1,4 +1,4 @@
-= Chapter 5 - Anti-Forensics and Data Hiding 
+= Anti-Forensics and Data Hiding 
 Most people who knowingly break the rules don't think they will get caught. This is also true for most computer users. The handful of rule breakers and troublemakers rarely take into consideration they might get caught. If they are careful enough to try and cover their steps. When these attempts at countermeasures are applied to a computer, it is generally considered to be anti-forensics. I like to use the term data hiding as it is often a more realistic description. 
 The popularity of shows like NCIS, CSI and Criminal Minds have exposed most of the people you might investigate to some of the ways they might get caught or how investigators locate evidence. They might Google how to delete data or hide photos. In general, most computer users lack the technical understanding to truly prevent a successful investigation. 
 
