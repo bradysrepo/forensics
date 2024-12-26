@@ -20,4 +20,5 @@ include::sections\chapter_04_Investigating_Digital_Evidence.adoc[]
 
 include::sections\chapter_05_Anti-Forensics.adoc[]
 
+include::sections\chapter_06_Report_Writing.adoc[]
 
