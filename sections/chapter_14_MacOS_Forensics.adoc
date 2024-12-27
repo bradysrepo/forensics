@@ -1,0 +1,3 @@
+== MacOS Forensics
+
+This chapter is 'too be written' in the future.  It could be en entire book if we wanted to go that deep.  It is not intended to be included in the 'introduction to forensics book'.
