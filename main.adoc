@@ -23,6 +23,3 @@ include::sections\chapter_05_Anti-Forensics.adoc[]
 include::sections\chapter_06_Report_Writing.adoc[]
 
 include::sections\chapter_07_Windows_Artifacts.adoc[]
-
-
-
