@@ -31,16 +31,15 @@ The presence of a known bad or problematic file is also something that can be ve
 
 The hash value of a file will be the same for every exact copy, even on different computers. The content of the file is the portion that is processed by the hashing function. Some of the metadata can be changed without altering the contents of the file. We can rename the file, and the hash value of the contents will remain the same. We can copy the file to another computer. This process will give the file a new created date on the target computer. This will not change the hash value either. 
 
-Some files, such as Microsoft Word (R) documents have metadata embedded in the document that is modified by the application anytime the file is opened. Metadata such as total editing time are automatically updated, even if the user doesn't interactively save the document. So, the simple act of opening a file, might change the embedded metadata and the hash value of a file because it is stored inside of the contents of the file. Other applications and files may not have that effect. Text based documents opened in a text editor, like Notepad (R) do not modify the contents of the file until the user saves the changes. 
-
-Metadata 
+== Metadata 
 As previous mentioned files can have multiple types of metadata. The types and amount of metadata varies by the application that creates or modifies the file. 
 
-Word example 
+There are two primary types of metadata that you will encounter. The first type is embedded in files the second type is created and maintained by file systems. When you start to look at files many of them have data embedded in them there are several types of metadata embedded there are descriptive metadata fields, technical metadata fields, and rights metadata fields. Descriptive metadata might contain information such as the title of the document, the author, creation date, and keywords. Technical metadata might contain information such as a file type, file format, resolution, bit depth, codec information.  Technical metadata might also include data such as program modified or created with, data rate, the model of a camera that took a picture, the GPS coordinates of where an image was snapped with a smartphone, file size, and time last modified. Rights metadata might contain copyright usage right licensing information and watermarking to identify ownership.
 
-Camera 
+It is worth noting that some applications will modify file metadata as a method of tracking changes, such as MS Word documents the amount of time that a document has been opened for modifications or when it was last saved.  This is important to note as something as simple as viewing a document in a method that can read and write might modify the contents of a file.  In general, most metadata inside files is write-once read-many.  
 
-File system data 
+File system metadata is generated and tracked by the file system in which the file resides.  Each file system tracks file information such as file name, logical location, physical location, file size, date and time created as well as date and time last modified.  Some file systems can be customized to track other data that the administrator identifies as important.  Most modern file systems also include data about ownership of a file, permissions to a file, dates and times accessed, and even tags or comments. 
+One common question that I have received when conducting hands-on labs is “How can a file be modified before it was created?"  Based on file system metadata, a copy of a file from one disk to another is creating a new file at the time of the copy.  The file system may copy the remaining metadata of the original file.  If the file was modified yesterday and copied from drive C: to drive D: today, it was modified before it was created according to the file system.  This means that investigators must understand how to interpret metadata correctly.
 
 Tools 
 
