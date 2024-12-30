@@ -10,16 +10,26 @@
 include::sections\introduction.adoc[]
 
 [Main]
+== Chapter One Computer Forensics
 include::sections\chapter_01_Computer_Forensics.adoc[]
 
+== Chapter Two Evidence Acquisition
 include::sections\chapter_02_Evidence_Acquisition.adoc[]
 
+== Chapter Three Digital Evidence
 include::sections\chapter_03_Digital_Evidence.adoc[]
 
+== Chapter Four Investigating Digital Evidence
 include::sections\chapter_04_Investigating_Digital_Evidence.adoc[]
 
+== Chapter Five Anti-Forensics
 include::sections\chapter_05_Anti-Forensics.adoc[]
 
+== Chapter Six Report Writing
 include::sections\chapter_06_Report_Writing.adoc[]
 
+== Chapter Seven Windows Artifacts
 include::sections\chapter_07_Windows_Artifacts.adoc[]
+
+== Closing
+Thank you for reading this book. I hope you have learned something new and useful. If you have any questions or comments, please feel free to contact me at nielsen.brady@gmail.com

@@ -1,4 +1,4 @@
-= Report Writing 
+== Report Writing 
 
 The culmination of an investigator's efforts is presenting their findings to the entity that requested the investigation. The process of synthesizing all your findings into a refined easy to understand yet detailed enough to provide all the details of the investigation is a daunting task. 
 Most incidents that evolve into an investigation have potential impacts for the entities being investigated, the entity requesting the investigation and you as an investigator. The best tool to ensure that the facts you discovered and preserved are conveyed to the requester. This transfer of knowledge allows the requesting entity to make informed decisions about how to proceed with the investigation. 
@@ -12,11 +12,11 @@ Composing the report is a balancing act of sorts. You should take care to avoid 
 An example of this process might be when looking at browser artifacts from a hard drive you are tasked with investigating. You might locate images from the cache files and URLs from the history files. You can piece together where a person might have been browsing and identify some content of the pages they were visiting. You are expected to piece this information together and present it as what likely occurred when someone was using the computer being investigated. Based on that evidence alone you cannot identify the actual person that was using the computer. You cannot identify their intent or motivation. You only have evidence to support the facts that someone used that computer to go to a website and what kind of content was present during that session. 
 The investigation is requested and directed by an entity, typically your employer, your client, or perhaps even an organization that you are volunteering to assist. The very nature of the relationship between you and the requester, creates an interest in supporting this organization. This bias that might be present is a source of scrutiny for opposition. It is important that your findings you do not present option or material that can be discredited based on potential bias. You can present your professional opinion of the interpretation of the evidence present. 
 
-== Structure of a report 
+=== Structure of a report 
 
 I have already indicated there isn't always a correct way to present content in a report. You may be fortunate enough to work for an organization that has a template or a form to fill in to present your findings. Most investigators do not have that luxury. The layout or structure of a report can come in many formats. I will recommend one layout. You can customize or alter it to fit your environment or investigation. After many years of conducting investigations, teaching many courses and reading every book and text I could get my hands on, I have opted to support a three plus format. Provide three distinct sections and supporting information as appendices. Other professionals, investigators or authors may lobby for slightly different layouts, but in general they all try to include all the pertinent information and limit the volume of data in a report. In some circumstances I strongly support appendices as attachments or supporting files. 
 
-=== Executive Summary 
+==== Executive Summary 
 The first full section of a report should be a summary of your findings, an Executive Summary. The content is an overview written in non-technical language. It is written for a lawyer, a Human Resources Manager or typical computer user. Acronyms and jargon are included in this section only when no other method to explain the findings is available and should be defined or explained before or as the topic is introduced. 
 
 This section is almost exclusively a written explanation of your findings. This portion is often the only portion that a requester will truly be able to comprehend, so it must be detailed and thorough without including content that will be unintelligible for them to be able to understand. It is very common to start your summary with a description of the investigation such as requestor, entity being investigated, allegations, and a description of your investigation process. 
@@ -26,7 +26,7 @@ If we return to our example of investigating web browser history from a hard dri
 
 “An individual using the computer in question, browsed to 125 different websites that are related to interlocking bricks. They averaged 18 sites lasting approximately 45 minutes every day for the past seven months. Sites such as brickbuildinghowtos.org and ilovetobuildbrickseveryday.net were included in the list are a good representation of the typical content of the sites visited by this user. “ 
 
-=== Technical Details 
+==== Technical Details 
 The second section of a report should be description of what you found, how you found it and where another investigator can locate the same information. This portion is written for a more technically astute audience. If written properly a non-technical person may be able to understand the process or findings. You should include any user-friendly content where possible. The contents of an email message or of a memorandum can be understood be everyone that reads the report. Not all of the files you locate will have user friend content but including it where possible is very important. Think of it in terms of you told the boss what you found, now you will be explaining it to the person that does the job and understands the process. Using jargon and acronyms in this section is acceptable and where it expedites the reading without introducing ambiguity or confusion should be used. 
 
 In this section you include each item of interest you located during your investigation. The content is less focused on writing about what you found, more concentrated on what you found and how you found it and what it contains if the content can be placed into a report. For large volumes of information, the use of tables is strongly recommended. If the volume is significant, a sample of the data can be included in this section and the full contents can be added as an appendix at the end of the document. You should preface any documents or list with what the content is, where it is located inside the evidence, and any special process that is required to be able to reproduce the process of making the content human consumable. You should also include any description of the evidence that might have significant impact or provide additional insight. Items that are hidden, encrypted, abnormal or of significant content should be documented in this section. 
@@ -48,26 +48,26 @@ Apple.com/store 3/16/15 1:45pm 4 Apple Store Home typed
 
 You should have entries for all items you have located. You do not always include all content of all items located in this section, where viable a copy of the easy-to-read content. You might summarize the content in addition to where it is and how to read it. 
 
-=== Technical information 
+==== Technical information 
 
 In this section you include the specific technical details for items you have identified as of interest. The information in this section will help any technical investigator to recreate your findings. The information about the item is dictated by type of evidence and the type of investigation. Generally, you will include the details of a file, such as dates and times created, modified, accessed, logical location, hash values, and where viable a copy of the easy-to-read content. Not all files have all attributes. Some evidence such as archive files, mailbox files or slack space may have a notable number of items of interest inside of one file. You do not have to relist the file and attributes for each item of interest. 
 
 For listing these details, it is often preferable to place them into an easy-to-read table. If needed multiple tables to sort and display data in a consistent and logical fashion. The content listed is at your discretion. You should be thorough and complete. The list of items could be very lengthy. It may all serve value and importance to the requestor of the report. The data you include should identify what items you located, proof they haven’t been modified, and relevant data for any skilled investigator to find them given the same evidence to investigate. 
 
-=== Appendices 
+==== Appendices 
 There are many items that you may opt to include in your report. The list can include but not limited to, your procedures, your validations, your investigation logs, detailed lists too long to place inside other portions of the report, supporting conversations such as the request to conduct the investigation or images retrieved during the investigations. 
 
-== Organization and layout 
+=== Organization and layout 
 
 === General Description 
 This document represents you and your organization. It should be professional, reviewed, refined, neat and should be easy to read. Professionals compose and deliver professional quality documents. A poor document discredits your professional skill, even if your ability to find and synthesize information is extraordinary. 
 
-=== Cover Sheet 
+==== Cover Sheet 
 I don't consider a coversheet a portion of a report; it is a very important aspect of the report. Almost all investigations will involve sensitive content. Whether is legal, civil, or business sensitive, covering your findings is a smart move. The entity requesting the investigation should be responsible enough to ensure their copy of a report is not easily visible by unauthorized parties. To help ensure the confidentiality of the report a cover sheet with basic information that doesn't indicate the party(ies) being investigated, the alleged activity or any findings, you should include your name, the requesters' name, a case number [if assigned], date presented, and label such as “Investigation Report”. 
 
-=== Pagination 
+==== Pagination 
 Placing page numbers in a report is very easy to overlook, but very unprofessional to forget. Bottom of the page, top of the page, corners or center are all acceptable. Consistency of the placement is the only real requirement. It is also a very common requirement. It is a great practice to list the items in the paper and where they are located. If you use a modern word processing application, it will automatically generate and update a table of contents if you use the layout functions such as headers. 
 
-=== Boarders, Spacing and Fonts 
+==== Boarders, Spacing and Fonts 
 
 Reasonable defaults of a word processor are acceptable. You should avoid large margins or narrow margins. Spacing between lines in business presentations is typically single-spaced with a line between paragraphs or sections. Font selection should be business professional. Times New Roman is almost always a safe selection. Avoid busy, flashy or non-standard fonts. They may appear business professional, but if the person reading the electronic version of the report doesn’t have the font you specified, it will use a default. Substituting fonts can alter the appearance and spacing of a document. 
