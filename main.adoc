@@ -2,9 +2,13 @@
 :author: Brady Nielsen
 :email: nielsen.brady@gmail.com
 :doctype: book
+:chapter:
+    :break_before: false
+    :break_after: auto
 :toc:
-:toclevels: 3
-:toc-title:Table of Contents
+
+
+
 
 [Forward]
 include::sections\introduction.adoc[]
